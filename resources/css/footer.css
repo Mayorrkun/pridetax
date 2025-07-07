@@ -1,0 +1,35 @@
+.footer{
+    padding: 70px 50px;
+    background-color:#ffffff ;
+    div{
+        border-bottom: 1px #0d0348 solid;
+        padding: 30px 30px;
+
+        span{
+            color: #0d0348;
+            display: block;
+            text-align: center;
+            font-size: 14px;
+            line-height: 18px;
+
+        }
+
+        .footer-sec{
+            display: flex;
+            gap: 30px;
+            border: none;
+            padding: 0;
+            margin: 10px 0;
+
+            ul{
+
+                li{
+                    span{
+                        border: none;
+                    }
+                }
+            }
+
+        }
+    }
+}
