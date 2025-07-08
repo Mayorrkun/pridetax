@@ -1,0 +1,18 @@
+.cta-btn{
+    padding: 10px 15px;
+    background-color: #c1b513;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+.cta-btn:hover{
+    opacity: 1;
+}
+
+.home-serv{
+    div{
+        transition: transform .7s ease-in-out;
+    }
+    div:hover {
+        transform: translateY(-10px);
+    }
+}
