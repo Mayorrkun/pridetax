@@ -61,10 +61,37 @@
 
         </div>
 
-        <a class="block text-right text-[16px] cursor-pointer leading-[20.8px] mx-[85px] mt-[20px] text-[#0d0348] hover:text-[#c1b513]" style="font-family: MTNBrighterSans-Regular">See More ...</a>
+        <a class="block text-right text-[16px] cursor-pointer leading-[20.8px] mx-[85px] mt-[20px] text-[#0d0348] hover:text-[#c1b513]" style="font-family: MTNBrighterSans-Regular">See More ... <i class="im-right"></i></a>
 
     </section>
-    <section class="parallax-container h-[400px] py-[100px] px-[30px]"  data-parallax="scroll" data-image-src="{{url('/media/0050.jpg')}}">
+    <section class="parallax-container py-[100px] px-[30px]"  data-parallax="scroll" data-image-src="{{url('/media/0050.jpg')}}">
+        <h1 class="text-white text-center block leading-[50px] text-[40px] font-[600]" style="font-family: MTNBrighterSans-Medium"> Why Choose Pride Tax Services?</h1>
+        <hr class="border-solid border border-white my-[10px]">
+        <div class="md:mx-[65px] grid md:grid-cols-4 gap-6">
+            <div class="md:max-w-[400px] flex flex-row gap-[5px]">
+                <span class="bg-white flex justify-center items-center w-[50px] h-[50px] flex-shrink-0 rounded-[5px] shadow-md"><i class="im-clock text-[25px] "></i></span>
+               <p class="text-white font-[400] text-[15px] leading-[16px] text-left" style="font-family: MTNBrighterSans-Medium"> Fast, Accurate & Affordable Tax Solutions</p>
+            </div>
+            <div class="md:max-w-[400px] flex flex-row gap-[5px]">
+                <span class="bg-white flex justify-center items-center w-[50px] h-[50px] flex-shrink-0 rounded-[5px] shadow-md"><i class="im-financial text-[25px] "></i></span>
+                <p class="text-white font-[400] text-[15px] leading-[16px] text-left" style="font-family: MTNBrighterSans-Medium"> Experienced and Friendly Tax Professionals</p>
+            </div>
+            <div class="md:max-w-[400px] flex flex-row gap-[5px]">
+                <span class="bg-white flex justify-center items-center w-[50px] h-[50px] flex-shrink-0 rounded-[5px] shadow-md"><i class="im-money-2 text-[25px] "></i></span>
+                <p class="text-white font-[400] text-[15px] leading-[16px] text-left" style="font-family: MTNBrighterSans-Medium">No Hidden Fees Transparent Pricing</p>
+            </div>
+            <div class="md:max-w-[400px] flex flex-row gap-[5px]">
+                <span class="bg-white flex justify-center items-center w-[50px] h-[50px] flex-shrink-0 rounded-[5px] shadow-md"><i class="im-calendar-3 text-[25px] "></i></span>
+                <p class="text-white font-[400] text-[15px] leading-[16px] text-left" style="font-family: MTNBrighterSans-Medium"> Available All Year Round Not Just Tax Season</p>
+            </div>
+
+        </div>
+        <hr class="border-none my-[10px] h-[20px]">
+        <div class="text-[20px] leading-[25px] mx-[65px] px-[30px] text-white" style="font-family: MTNBrighterSans-Medium">
+            At Pride Tax, We're here to help you resolve your tax problems and put an end to the struggle that the IRS can put you through. We pride ourselves on being extremely efficient, affordable, and of course, professional. The IRS problems will not go away by themselves, they just keep getting worse with more penalties and interest being added. Our team will get to work solving your tax problems, so sit back and relax, and Pride Tax will get you there. We are ready to assist you through every step of the process.
+        </div>
+
+        <a class="block text-right text-[16px] cursor-pointer leading-[20.8px] mx-[85px] mt-[20px] hover:text-[#0d0348] text-[#fff]" style="font-family: MTNBrighterSans-Regular"> Learn More About Us ... <i class="im-right"></i></a>
 
     </section>
 </x-layout>

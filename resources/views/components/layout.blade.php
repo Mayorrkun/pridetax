@@ -6,6 +6,7 @@
     <title>Pride Tax Store</title>
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
+    <link rel="stylesheet" href="{{ asset('icons/iconsmind/line-icons.min.css') }}">
 </head>
 <body>
 <x-navbar> </x-navbar>
