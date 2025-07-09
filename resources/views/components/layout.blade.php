@@ -8,7 +8,7 @@
     @vite('resources/js/app.js')
     <link rel="stylesheet" href="{{ asset('icons/iconsmind/line-icons.min.css') }}">
 </head>
-<body>
+<body class="overflow-x-hidden">
 <x-navbar> </x-navbar>
 {{$slot}}
 

@@ -9,7 +9,7 @@
             <ul class="space-y-4 ml-auto text-[16px] leading-[20px]" style="font-family: MTNBrighterSans-Medium">
                 <li class="gap-[30px] w-auto flex flex-row">
                     <span>Address</span>
-                    <span class="text-right">2498,Perry Crossing,Suite 240, Plainfield</span>
+                    <span class="text-right">2498, Perry Crossing,Suite 240, Plainfield</span>
                 </li>
                 <li class="justify-between w-auto flex flex-row">
                     <span>Opening hours</span>

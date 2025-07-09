@@ -27,5 +27,8 @@ document.addEventListener('DOMContentLoaded', function (){
     }
 
     setActive('/','home');
+    setActive('/contact', 'contact');
+    setActive('/about', 'about');
+    setActive('/services', 'services');
 });
 
