@@ -1,11 +1,12 @@
 <footer class="footer">
     <div>
         <div class="footer-sec">
-            <img src="{{url('/media/IRS.png')}}" alt="try again">
-            <img src="{{url('/media/CTC-logo.png')}}" alt="try again">
-            <img src="{{url('/media/natp_logo.png')}}" alt="try again">
+            <div class="flex flex-row p-0 m-0 ">
+                <img class="flex-shrink" src="{{url('/media/IRS.png')}}" alt="try again">
+                <img class="flex-shrink" src="{{url('/media/CTC-logo.png')}}" alt="try again">
+                <img class="flex-shrink" src="{{url('/media/natp_logo.png')}}" alt="try again">
 
-
+            </div>
             <ul class="space-y-4 ml-auto text-[16px] leading-[20px]" style="font-family: MTNBrighterSans-Medium">
                 <li class="gap-[30px] w-auto flex flex-row">
                     <span>Address</span>
