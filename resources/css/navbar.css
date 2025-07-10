@@ -48,3 +48,8 @@
     /* overflow: hidden; */
     z-index: 1;
 }
+.nav-list{
+    font-family: MTNBrighterSans-Medium;
+    transition: all .5s ease-in-out;
+    max-height: 0;
+}

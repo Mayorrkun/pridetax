@@ -2,13 +2,12 @@
     <section class="pt-[100px] pb-[50px] px-[15px] sm:px-[30px] bg-no-repeat bg-cover bg-center text-[#fff]" style="background-image: url('media/0051.jpg');">
         <div class="mx-0 sm:mx-[85px]">
             <h1 class="text-[30px] leading-[40px] sm:text-[45px] sm:leading-[55px] font-[700] text-center" style="font-family: MTNBrighterSans-Medium">Pride Tax Services</h1>
-            <div class="text-justify my-[20px]">
+            <div class=" my-[20px]">
                 <span class="text-[22px] leading-[32px] sm:text-[30px] sm:leading-[40px] font-[500]" style="font-family: MTNBrighterSans-Medium">Maximize your refunds Minimize your stress -Proudly Serving You!</span>
                 <p class="text-[16px] sm:text-[18px] mt-[10px] leading-[20.8px] font-[400]" style="font-family: MTNBrighterSans-Regular">
                     Expert Tax Preparation,Filing and Planning at Affordable Rates
                     <br>
                     <span class="flex flex-col sm:flex-row mt-[30px] sm:mt-[50px] gap-[20px]">
-                        <a class="cta-btn" href="{{route('contact')}}">Get Your Free Tax Estimate</a>
                         <a class="cta-btn" href="{{route('contact')}}">Book a Consultation</a>
                     </span>
                 </p>
@@ -19,7 +18,7 @@
     <section class="py-[50px] px-[15px] sm:px-[30px]">
         <h1 class="text-black text-center block leading-[38px] sm:leading-[50px] text-[28px] sm:text-[40px] font-[600]" style="font-family: MTNBrighterSans-Medium"> Our Services</h1>
 
-        <div class="home-serv flex flex-col sm:flex-row flex-wrap gap-[20px] justify-center sm:justify-between mt-[30px] px-0 sm:px-[30px] mx-0 sm:mx-[30px]">
+        <div class="home-serv flex flex-col sm:flex-row flex-wrap gap-[20px] justify-center sm:justify-between mt-[30px] px-0  mx-0 sm:mx-[30px]">
             <div class="py-[20px] px-[10px] max-w-full sm:max-w-[220px] text-white" style="background-color: #c1b513; opacity: 0.7;">
                 <h2 class="block text-center font-[400] text-[14px]" style="font-family: MTNBrighterSans-Medium">Tax preparation and Filing</h2>
                 <ol class="block mt-[10px] list-disc px-[20px]" style="font-family: MTNBrighterSans-Light">

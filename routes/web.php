@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\GeneralController;
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
@@ -16,3 +16,7 @@ Route::get('/about',function(){
 Route::get('/services',function(){
     return view('services');
 })->name('services');
+
+Route::get('/resources',function(){
+    return view('resources');
+})->name('resources');
