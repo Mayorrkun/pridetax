@@ -25,3 +25,15 @@ $(document).ready(function () {
 
     initParallax();
 });
+
+window.addEventListener('scroll', function () {
+    const text = document.querySelector('.fadeText');
+    const maxScroll = 400; // how far before fully faded
+    let opacity = 1 - window.scrollY / maxScroll;
+
+    // Clamp the opacity between 0 and 1
+    opacity = Math.max(0, Math.min(1, opacity));
+
+    text.style.opacity = opacity;
+
+});
