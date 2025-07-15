@@ -5,7 +5,7 @@
         ["title"=>"Convenient", "img_src"=>"media/8.png"]
     ];
     $reviews = [
-        ["name"=>"Marcus T.", "review"=>"Pride Tax Services got me my biggest refund ever, highly recommend!"],
+        ["name"=>"Marcus T.", "review"=>"Pride Tax Store got me my biggest refund ever, highly recommend!"],
         ["name"=>"Sarah K.", "review"=>"Finally, a tax company that explains everything clearly and saves me money!"],
         ["name"=>"David R.", "review"=>"As a freelancer, their expertise saved me thousands. Worth every penny!"],
         ["name"=>"Lisa M.", "review"=>"Stress-free taxes? Yes! The team handled my IRS notice in one call."],
@@ -34,7 +34,7 @@
         <div class="px-[20px] sm:mx-[85px]">
             <h1 class="text-[30px] sm:text-[35px] text-black leading-[35px] sm:leading-[45px] font-[700] sm:text-center text-left" style="font-family: MTNBrighterSans-Medium">Our Values</h1>
             <p class="text-[18px] mt-[10px] text-justify leading-[20.8px] sm:px-[30px]" style="font-family: MTNBrighterSans-Regular">
-                At PrideTax Store, we believe everyone deserves accessible and reliable tax services without the hassle...
+                At PrideTax Store, we believe everyone deserves accessible and reliable tax services without the hassle..
             </p>
             <div class="my-[20px] grid grid-cols-1 sm:grid-cols-3 gap-[20px] sm:px-[100px]">
                 @foreach($values as $value)

@@ -25,10 +25,10 @@
 
             <div class="w-full lg:w-[40%]" style="font-family: MTNBrighterSans-Regular">
                 <h1 class="block text-[20px] sm:text-[23px]">Questions Comments or More Information</h1>
-                <p class="block text-[14px] my-[10px] text-gray-500">Please fill out the form to contact Pride Tax Service, LLC if you are interested in our services or have any questions or comments.</p>
-                <h1 class="block text-[20px] sm:text-[23px]">Pride Tax Service</h1>
+                <p class="block text-[14px] my-[10px] text-gray-500">Please fill out the form to contact Pride Tax Store, LLC if you are interested in our services or have any questions or comments.</p>
+                <h1 class="block text-[20px] sm:text-[23px]">Pride Tax Store</h1>
                 <p class="block text-[14px] my-[5px] text-gray-500"> 2498 Perry Crossing Way, suite 240, Plainfield, IN 46168, USA</p>
-                <p class="block text-[14px] my-[20px] text-gray-500"> You can reach us by our phone number 1 844-506-0861</p>
+                <p class="block text-[14px] my-[20px] text-gray-500"> You can reach us by our phone number <br> 1 844-506-0861</p>
                 <h1 class="block text-[20px] sm:text-[23px]">Hours</h1>
                 <ul class="mt-[20px]">
                     <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Mon</span><span>08:00 am - 06:00 pm</span></li>

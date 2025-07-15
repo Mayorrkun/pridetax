@@ -1,7 +1,7 @@
 <x-layout>
     <section class="pt-[100px] pb-[50px] px-[15px] sm:px-[30px] bg-no-repeat bg-cover bg-center text-[#fff]" style="background-image: url('media/0051.jpg');">
-        <div class="mx-0 sm:mx-[85px]">
-            <h1 class="text-[30px] leading-[40px] sm:text-[45px] sm:leading-[55px] font-[700] text-center" style="font-family: MTNBrighterSans-Medium">Pride Tax Services</h1>
+        <div class="mx-0 sm:mx-[85px] fadeText">
+            <h1 class="text-[30px] leading-[40px] sm:text-[45px] sm:leading-[55px] font-[700] text-center" style="font-family: MTNBrighterSans-Medium">Pride Tax Store</h1>
             <div class=" my-[20px]">
                 <span class="text-[22px] leading-[32px] sm:text-[30px] sm:leading-[40px] font-[500]" style="font-family: MTNBrighterSans-Medium">Maximize your refunds Minimize your stress -Proudly Serving You!</span>
                 <p class="text-[16px] sm:text-[18px] mt-[10px] leading-[20.8px] font-[400]" style="font-family: MTNBrighterSans-Regular">
@@ -63,7 +63,7 @@
     </section>
 
     <section class="parallax-container py-[50px] sm:py-[100px] px-[15px] sm:px-[30px]" data-parallax="scroll" data-image-src="{{url('/media/0050.jpg')}}">
-        <h1 class="text-white text-center block leading-[38px] sm:leading-[50px] text-[28px] sm:text-[40px] font-[600]" style="font-family: MTNBrighterSans-Medium"> Why Choose Pride Tax Services?</h1>
+        <h1 class="text-white text-center block leading-[38px] sm:leading-[50px] text-[28px] sm:text-[40px] font-[600]" style="font-family: MTNBrighterSans-Medium"> Why Choose Pride Tax Store?</h1>
         <hr class="border-solid border border-white my-[10px]">
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:mx-[65px]">

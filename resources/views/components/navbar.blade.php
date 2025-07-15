@@ -1,12 +1,14 @@
 <nav class="nav-bar hidden lg:flex" id="navbar">
-    <div></div>
+    <a href="{{route('home')}}" class="h-[50px] flex">
+        <img src="{{url('media/logo4.png')}}" alt="" class="h-[60px] mx-auto translate-y-[-10px]">
+    </a>
 
     <ul>
-        <li id="home"><a href="{{route('home')}}">Home</a></li>
-        <li id="about"><a href="{{route('about')}}">About</a></li>
-        <li id="services"><a href="{{route('services')}}">Services</a></li>
-        <li id="resources"><a href="{{route('resources')}}">Resources</a></li>
-        <li id="contact"><a href="{{route('contact')}}">Contact</a></li>
+        <li><a  id="home" href="{{route('home')}}">Home</a></li>
+        <li ><a id="about" href="{{route('about')}}">About</a></li>
+        <li ><a id="services" href="{{route('services')}}">Services</a></li>
+        <li ><a id="resources" href="{{route('resources')}}">Resources</a></li>
+        <li ><a id="contact" href="{{route('contact')}}">Contact</a></li>
     </ul>
 
 
@@ -14,6 +16,8 @@
 
 <nav class="flex flex-col md:hidden z-[10] pt-[10px] top-0 fixed w-full transition-all duration-300" id="mobile-nav">
 <div class="flex">
+    <a href="{{route('home')}}"><img src="{{url('media/logo4.png')}}" alt="" class="h-[50px]"></a>
+
     <button class="ml-auto" id="nav-menu-btn"><i class="bx-menu bx text-white text-[40px]"></i></button>
 </div>
     <ul class="nav-list bg-white overflow-hidden" id="nav-list">
