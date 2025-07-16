@@ -20,3 +20,5 @@ Route::get('/services',function(){
 Route::get('/resources',function(){
     return view('resources');
 })->name('resources');
+
+Route::post('/contact-form',[GeneralController::class,'contact'])->name('contact-form');

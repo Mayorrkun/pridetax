@@ -11,36 +11,51 @@
     <hr class="border-none h-[60px]">
 
     <section class="bg-white py-[50px]">
-        <div class="px-[20px] sm:mx-[85px] flex flex-col lg:flex-row gap-[50px]">
-            <form action="" method="POST" class="w-full lg:w-[60%]">
-                <h1 class="block text-[20px] sm:text-[22px] mb-[30px] leading-[30px]" style="font-family: MTNBrighterSans-Regular">Send us a message!</h1>
 
-                <input type="text" class="block w-full border-[#f0f0f0] shadow-sm border text-[18px] sm:text-[20px] p-[10px] mb-[30px]" name="first_name" placeholder="First Name*" style="font-family: 'Times New Roman'">
-                <input type="text" class="block w-full border-[#f0f0f0] shadow-sm border text-[18px] sm:text-[20px] p-[10px] mb-[30px]" name="last_name" placeholder="Last Name*" style="font-family: 'Times New Roman'">
-                <input type="email" class="block w-full border-[#f0f0f0] shadow-sm border text-[18px] sm:text-[20px] p-[10px] mb-[30px]" name="email" placeholder="Email*" style="font-family: 'Times New Roman'">
-                <input type="text" class="block w-full border-[#f0f0f0] shadow-sm border text-[18px] sm:text-[20px] p-[10px] mb-[30px]" name="phone" placeholder="Phone Number*" style="font-family: 'Times New Roman'">
-                <textarea rows="4" class="block w-full border-[#f0f0f0] shadow-sm border text-[18px] sm:text-[20px] p-[10px] mb-[30px]" name="message" placeholder="Message*" style="font-family: 'Times New Roman'"></textarea>
-                <input type="submit" class="w-full bg-[#0d0348] text-[20px] p-[10px] text-white rounded-[3px] font-[500] cursor-pointer hover:opacity-90" style="font-family: MTNBrighterSans-Medium">
-            </form>
+            <div class="px-[20px] sm:mx-[85px] flex flex-col lg:flex-row gap-[50px]">
+                @if(0 === 1)
+                <form action="{{route('contact-form')}}" method="POST" class="w-full lg:w-[60%]">
+                    @csrf
+                    <h1 class="block text-[20px] sm:text-[22px] mb-[30px] leading-[30px]" style="font-family: MTNBrighterSans-Regular">Send us a message!</h1>
+                    <input type="text" class="block w-full border-[#f0f0f0] shadow-sm border text-[18px] sm:text-[20px] p-[10px] mb-[30px]" name="first_name" placeholder="First Name*" style="font-family: 'Times New Roman'">
+                    <x-error name="first_name"></x-error>
+                    <input type="text" class="block w-full border-[#f0f0f0] shadow-sm border text-[18px] sm:text-[20px] p-[10px] mb-[30px]" name="last_name" placeholder="Last Name*" style="font-family: 'Times New Roman'">
+                    <x-error name="last_name"></x-error>
+                    <input type="email" class="block w-full border-[#f0f0f0] shadow-sm border text-[18px] sm:text-[20px] p-[10px] mb-[30px]" name="email" placeholder="Email*" style="font-family: 'Times New Roman'">
+                    <x-error name="email"></x-error>
+                    <input type="text" class="block w-full border-[#f0f0f0] shadow-sm border text-[18px] sm:text-[20px] p-[10px] mb-[30px]" name="phone" placeholder="Phone Number*" style="font-family: 'Times New Roman'">
+                    <x-error name="phone"></x-error>
+                    <textarea rows="4" class="block w-full border-[#f0f0f0] shadow-sm border text-[18px] sm:text-[20px] p-[10px] mb-[30px]" name="message" placeholder="Message*" style="font-family: 'Times New Roman'"></textarea>
 
-            <div class="w-full lg:w-[40%]" style="font-family: MTNBrighterSans-Regular">
-                <h1 class="block text-[20px] sm:text-[23px]">Questions Comments or More Information</h1>
-                <p class="block text-[14px] my-[10px] text-gray-500">Please fill out the form to contact Pride Tax Store, LLC if you are interested in our services or have any questions or comments.</p>
-                <h1 class="block text-[20px] sm:text-[23px]">Pride Tax Store</h1>
-                <p class="block text-[14px] my-[5px] text-gray-500"> 2498 Perry Crossing Way, suite 240, Plainfield, IN 46168, USA</p>
-                <p class="block text-[14px] my-[20px] text-gray-500"> You can reach us by our phone number <br> 1 844-506-0861</p>
-                <h1 class="block text-[20px] sm:text-[23px]">Hours</h1>
-                <ul class="mt-[20px]">
-                    <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Mon</span><span>08:00 am - 06:00 pm</span></li>
-                    <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Tue</span><span>08:00 am - 06:00 pm</span></li>
-                    <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Wed</span><span>08:00 am - 06:00 pm</span></li>
-                    <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Thu</span><span>08:00 am - 06:00 pm</span></li>
-                    <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Fri</span><span>08:00 am - 06:00 pm</span></li>
-                    <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Sat</span><span>08:00 am - 06:00 pm</span></li>
-                    <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Sun</span><span>10:00 am - 03:00 pm</span></li>
-                </ul>
+                    <x-error name="message"></x-error>
+                    <input type="submit" class="w-full my-[10px] bg-[#0d0348] text-[20px] p-[10px] text-white rounded-[3px] font-[500] cursor-pointer hover:opacity-90" style="font-family: MTNBrighterSans-Medium">
+                </form>
+                @endif
+
+                <div class="w-full lg:w-[40%]" style="font-family: MTNBrighterSans-Regular">
+                    @if(0 === 1)
+                    <h1 class="block text-[20px] sm:text-[23px]">Questions Comments or More Information</h1>
+                    <p class="block text-[14px] my-[10px] text-gray-500">Please fill out the form to contact Pride Tax Store, LLC if you are interested in our services or have any questions or comments.</p>
+                    @endif
+                    <h1 class="block text-[25px] sm:text-[30px] font-[600]">Pride Tax Store</h1>
+                        <hr class="w-full h-[3px] border-[#c1b513]" style="color: #c1b513">
+                    <p class="block text-[14px] my-[5px] text-gray-500"> 2498 Perry Crossing Way, suite 240, Plainfield, IN 46168, USA</p>
+                    <p class="block text-[14px] my-[20px] text-gray-500"> You can reach us by our phone number <br> 1 844-506-0861</p>
+                    <h1 class="block text-[25px] font-[600] sm:text-[30px]">Hours</h1>
+                        <hr class="w-full h-[3px] border-[#c1b513]" style="color: #c1b513">
+                    <ul class="mt-[20px]">
+                        <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Mon</span><span>08:00 am - 06:00 pm</span></li>
+                        <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Tue</span><span>08:00 am - 06:00 pm</span></li>
+                        <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Wed</span><span>08:00 am - 06:00 pm</span></li>
+                        <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Thu</span><span>08:00 am - 06:00 pm</span></li>
+                        <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Fri</span><span>08:00 am - 06:00 pm</span></li>
+                        <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Sat</span><span>08:00 am - 06:00 pm</span></li>
+                        <li class="gap-[20px] my-[5px] flex text-gray-500 text-[16px]"><span class="w-[50px]">Sun</span><span>10:00 am - 03:00 pm</span></li>
+                    </ul>
+                </div>
             </div>
-        </div>
+
+
     </section>
 
     <hr class="border-none h-[60px]">

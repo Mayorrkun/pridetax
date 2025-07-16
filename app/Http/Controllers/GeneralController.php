@@ -15,5 +15,7 @@ class GeneralController extends Controller
             'phone' => 'required',
             'message' => 'required'
         ]);
+
+         dd($contact_data);
     }
 }
