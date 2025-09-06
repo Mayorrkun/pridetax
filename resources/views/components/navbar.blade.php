@@ -1,7 +1,7 @@
 <nav class="nav-bar hidden lg:flex justify-center" id="navbar">
-{{--    <a href="{{route('home')}}" class="h-[50px] flex">--}}
-{{--        <img src="{{url('media/logo4.png')}}" alt="" class="h-[60px] mx-auto translate-y-[-10px]">--}}
-{{--    </a>--}}
+    <a href="{{route('home')}}" class="h-[50px] flex mr-auto">
+        <img src="{{url('media/pridelogo.png')}}" alt="" class="h-[60px] mx-auto translate-y-[-10px]">
+    </a>
 
     <ul>
         <li><a  id="home" href="{{route('home')}}">Home</a></li>
@@ -16,7 +16,7 @@
 
 <nav class="flex flex-col md:hidden z-[10] pt-[10px] top-0 fixed w-full transition-all duration-300" id="mobile-nav">
 <div class="flex">
-{{--    <a href="{{route('home')}}"><img src="{{url('media/logo4.png')}}" alt="" class="h-[50px]"></a>--}}
+    <a href="{{route('home')}}"><img src="{{url('media/pridelogo.png')}}" alt="" class="h-[50px]"></a>
 
     <button class="ml-auto" id="nav-menu-btn"><i class="bx-menu bx text-white text-[40px]"></i></button>
 </div>
