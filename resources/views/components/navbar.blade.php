@@ -1,6 +1,7 @@
 <nav class="nav-bar hidden lg:flex justify-center" id="navbar">
     <a href="{{route('home')}}" class="h-[50px] flex mr-auto">
         <img src="{{url('media/pridelogo.png')}}" alt="" class="h-[60px] mx-auto translate-y-[-10px]">
+        <img src="{{url('media/pridetext.png')}}" alt="" class="h-[60px] mx-auto translate-y-[-10px]">
     </a>
 
     <ul>
